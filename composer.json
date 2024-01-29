@@ -1,0 +1,27 @@
+{
+  "name": "carono/yii2-telegram-target-log",
+  "description": "Yii2 telegram target log",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksandr Kasyanov",
+      "email": "info@carono.ru",
+      "homepage": "https://carono.ru"
+    }
+  ],
+  "require": {
+    "php": ">=8",
+    "yiisoft/yii2": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "carono\\yii2log\\": "src"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
+}
